@@ -26,7 +26,7 @@ function validatePhone(){
         phoneError.innerHTML='phone no is required'
         return false;
     }
-    if(!phone.match(/^[0-9]$/)){
+    if(!phone.match(/[0-9]$/)){
         phoneError.innerHTML='only digits'
         return false;
     }
